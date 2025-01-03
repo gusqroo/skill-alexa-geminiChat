@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 
-GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
+GOOGLE_API_KEY = os.getenv('AIzaSyCb4gn2Wi5cFwyYKNBcF-r5petGnTEadgI')
 # URL do endpoint da API
 url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro-latest:generateContent?key={}".format(GOOGLE_API_KEY)
 # Cabeçalhos para a requisição
